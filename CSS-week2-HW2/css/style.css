@@ -1,0 +1,99 @@
+/* Accessibility: Skip to Main Content Link */
+.skip-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0d47a1;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.skip-link:focus {
+    outline: 3px solid #ff9800;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: #e3f2fd; 
+}
+
+/* Nav element using inline-block and width approximately 80% */
+nav {
+    background-color: #bbdefb; 
+    display: inline-block;
+    width: 80%;
+}
+
+nav a {
+    color: #0d47a1;
+    font-weight: bold;
+}
+
+main {
+    background-color: #ffffff; 
+    font-size: 18px;
+}
+
+footer {
+    background-color: #cfd8dc; 
+}
+
+footer a {
+    color: #0d47a1;
+}
+
+/* Commented out existing styling for the li element as required */
+/*
+li {
+    display: inline-block;
+    width: 30%;
+    text-align: center; 
+}
+*/
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0d47a1; 
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Descendant selector to style only the image in the navigation / header with width approximately 10% */
+header img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+nav img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+/* Grid class styling: two-column grid where each column is approximately 40% */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Descendant selector to style only images in the grid class with width 100% */
+.grid img {
+    width: 100%;
+}
+
+/* Flex class styling: using flexbox with flex-wrap and justify-content */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
